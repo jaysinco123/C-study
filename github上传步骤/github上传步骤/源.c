@@ -20,6 +20,15 @@ int main()
 //3添加注释
 	//git commit -m "注释内容任意"
 //4上传文件
+	//git pull -u origin main
 	//git push -u origin main
+//删除github上的文件
+	//git rm --cached filename    //git rm --cached a.txt删除的是本地仓库中的文件
+	//git commit - m "delete filename"
+	//git push
+//删除github上的目录
+	//git rm --cached - r useless    // - r参数删除目录
+	//git commit - m "remove directory from remote repository"
+	//git push
 	return 0;
 }
